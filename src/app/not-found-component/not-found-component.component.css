@@ -1,0 +1,39 @@
+.not-found-container {
+    text-align: center;
+    padding: 50px;
+    color: #E0E0E0;
+}
+
+h1 {
+    font-size: 6rem;
+    color: #0A81D1;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #CCCCCC;
+    margin-bottom: 30px;
+}
+
+.back-home-btn {
+    background: #0A81D1;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.back-home-btn:hover {
+    background: #0668A0;
+    transform: scale(1.05);
+}

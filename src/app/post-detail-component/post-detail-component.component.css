@@ -1,0 +1,45 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.lead {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}

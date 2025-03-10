@@ -4,12 +4,16 @@ header {
 }
 
 header img {
-    width: 250px;
+    width: 200px;
     height: 130px;
 }
 .nav-link.active {
     background-color: #0A81D1;
     color: #121212;
+}
+
+.nav-link.active:hover {
+    background-color: #086BA3;
 }
 
 .nav-link {

@@ -1,1 +1,44 @@
-<p>post-list-component works!</p>
+<div class="container py-5">
+  <h1 class="text-center mb-4">Nossos Posts</h1>
+  
+  <div class="row">
+    <!-- Post 1 -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="img/mec.jpeg" class="card-img-top" alt="Post 1">
+        <div class="card-body">
+          <h5 class="card-title">Como Consertar o Freio de Carro</h5>
+          <p class="card-text">Aprenda a diagnosticar e consertar problemas comuns no sistema de frenagem dos carros. Dicas simples e eficazes!</p>
+          <!-- Rota para detalhes do post 1 -->
+          <a [routerLink]="['/posts', 1]" class="btn btn-primary">Ver Detalhes</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Post 2 -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="img/car.jpeg" class="card-img-top" alt="Post 2">
+        <div class="card-body">
+          <h5 class="card-title">Como Tunar Seu Carro</h5>
+          <p class="card-text">Entenda os passos necessários para tunar seu carro e deixá-lo mais rápido e estiloso. Confira as melhores dicas!</p>
+          <!-- Rota para detalhes do post 2 -->
+          <a [routerLink]="['/posts', 2]" class="btn btn-primary">Ver Detalhes</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Post 3 -->
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="img/cars.jpeg" class="card-img-top" alt="Post 3">
+        <div class="card-body">
+          <h5 class="card-title">Encontros de Carros: Como Participar</h5>
+          <p class="card-text">Quer saber como se destacar nos encontros de carros? Veja como fazer parte desse mundo e se conectar com outros entusiastas!</p>
+          <!-- Rota para detalhes do post 3 -->
+          <a [routerLink]="['/posts', 3]" class="btn btn-primary">Ver Detalhes</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
