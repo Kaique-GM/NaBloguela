@@ -22,13 +22,13 @@ Um blog simples feito com **Angular**, onde é possível navegar entre diferente
 
 ## 📷 Imagens do NaBloguela
 ### 🏠 Home
-![Home](/public/img/home.png)
+![Home](/public/img/home1.png)
 
 ### 🏎️ Lista de Posts
 ![Posts](/public/img/posts.png)
 
 ### ℹ️ Sobre Nós
-![Posts](/public/img/contato.png)
+![Posts](/public/img/about.png)
 
 ### 📞 Contato
 ![Posts](/public/img/contato.png)
