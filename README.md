@@ -37,7 +37,7 @@ Um blog simples feito com **Angular**, onde é possível navegar entre diferente
 ## 🚀 Como Rodar o Projeto
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/blog-carros-angular.git
+   git clone https://github.com/Kaique-GM/NaBloguela.git
    ```
 2. Acesse o diretório do projeto:
    ```bash
