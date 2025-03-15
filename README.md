@@ -1,59 +1,56 @@
-# AngularBlog
+<p align="center">
+<img src="./public/img/icon3.png" width="300"/>
+</p>
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
+Bem-vindo ao **NaBloguela**, um simples projeto desenvolvido como parte das atividades acadêmicas para reforçar o uso de **rotas no Angular**. 🏎️🔥
 
-## Development server
+## 📝🚗 Descrição
+Um blog simples feito com **Angular**, onde é possível navegar entre diferentes páginas utilizando o sistema de **rotas**. A aplicação conta com:
 
-To start a local development server, run:
+- **Home** 🏠: Página inicial do blog.
+- **Lista de Posts** 📝: Exibe os posts.
+- **Sobre** ℹ️: Informações sobre o blog e seu propósito.
+- **Contato** 📞: Infomações para contato, dúvidas ou sugestões sobre o blog.
+- **Erro 404** 🚫: Página exibida quando a rota não é encontrada.
 
-```bash
-ng serve
-```
+## 🛠️ Tecnologias Utilizadas
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 📷 Imagens do NaBloguela
+### 🏠 Home
+![Home](/public/img/home.png)
 
-## Code scaffolding
+### 🏎️ Lista de Posts
+![Posts](/public/img/posts.png)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### ℹ️ Sobre Nós
+![Posts](/public/img/contato.png)
 
-```bash
-ng generate component component-name
-```
+### 📞 Contato
+![Posts](/public/img/contato.png)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-```bash
-ng generate --help
-```
+## 🚀 Como Rodar o Projeto
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/blog-carros-angular.git
+   ```
+2. Acesse o diretório do projeto:
+   ```bash
+   cd NaBloguela
+   ```
+3. Instale as dependências:
+   ```bash
+    npm install
+   ```
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+    ng serve
+   ```
+ ## 💬 Feedback e Contribuições
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Se você encontrou um bug ou gostaria de sugerir melhorias, sinta-se à vontade para abrir uma `Issue` ou enviar um `Pull Request`. Agradeço seu feedback!
